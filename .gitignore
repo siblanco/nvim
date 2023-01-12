@@ -67,3 +67,4 @@ Pods/
 # Karabiner
 .config/karabiner/automatic_backups
 lua/craftzdog/lsp_settings/licenses.lua
+packer_compiled
