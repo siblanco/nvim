@@ -19,12 +19,16 @@ packer.startup(function(use)
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
 
-  use 'glepnir/lspsaga.nvim' -- LSP UIs
   use 'L3MON4D3/LuaSnip'
   use { "saadparwaiz1/cmp_luasnip" } -- snippet completions
   use { "rafamadriz/friendly-snippets" } -- a bunch of snippets to use
   use 'siblanco/nvim-snippets'
   use 'tpope/vim-commentary'
+
+  use {
+    'glepnir/lspsaga.nvim',
+    commit = 'b7b4777369b441341b2dcd45c738ea4167c11c9e'
+  }
 
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -53,4 +57,5 @@ packer.startup(function(use)
   use "phaazon/hop.nvim"
 
   use "mbbill/undotree"
+
 end)

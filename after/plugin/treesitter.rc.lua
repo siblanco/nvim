@@ -10,7 +10,8 @@ ts.setup {
     enable = true,
     disable = {},
   },
-  ensure_installed = { "bash", "css", "html", "javascript", "json", "php", "scss", "typescript", "vim", "lua", "twig" }, -- one of "all" or a list of languages
+  ensure_installed = { "markdown", "bash", "css", "html", "javascript", "json", "php", "scss", "typescript", "vim", "lua",
+    "twig" }, -- one of "all" or a list of languages
   autotag = {
     enable = true,
   },
