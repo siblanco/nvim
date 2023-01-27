@@ -5,10 +5,10 @@ saga.setup({
   symbol_in_winbar = {
     enable = false
   },
+
   ui = {
-    winblend = 10,
+    title = false,
     border = 'rounded',
-    title = true,
     colors = {
       normal_bg = '#1a1b26'
     }
