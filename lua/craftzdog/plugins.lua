@@ -25,10 +25,7 @@ packer.startup(function(use)
   use 'siblanco/nvim-snippets'
   use 'tpope/vim-commentary'
 
-  use {
-    'glepnir/lspsaga.nvim',
-    commit = 'b7b4777369b441341b2dcd45c738ea4167c11c9e'
-  }
+  use { 'glepnir/lspsaga.nvim' }
 
   use {
     'nvim-treesitter/nvim-treesitter',
