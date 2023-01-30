@@ -31,6 +31,7 @@ keymap('v', 'y', 'ygv<Esc>')
 
 -- close buffer
 keymap('n', 'tc', '<cmd>Bdelete!<CR>')
+keymap('n', '<leader>c', '<cmd>bufdo bd<CR>')
 keymap('n', 'ti', ':bnext<CR>')
 keymap('n', 'tm', ':bprevious<CR>')
 
