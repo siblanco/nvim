@@ -35,6 +35,9 @@ keymap('n', '<leader>c', '<cmd>bufdo bd<CR>')
 keymap('n', 'ti', ':bnext<CR>')
 keymap('n', 'tm', ':bprevious<CR>')
 
+-- quicklist
+keymap('n', '<leader>q', '<cmd>call setqflist([])<CR>')
+
 -- Split window
 keymap('n', 'ss', ':split<Return><C-w>w')
 keymap('n', 'sv', ':vsplit<Return><C-w>w')
