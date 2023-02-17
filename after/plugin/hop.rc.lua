@@ -8,21 +8,21 @@ local keymap = vim.keymap
 -- keymap.set('n', 'h', "<cmd>lua require'hop'.hint_words()<cr>")
 keymap.set('n', 'h', function()
   require 'hop'.hint_words()
-  vim.cmd("norm zz")
+  -- vim.cmd("norm zz")
 end)
 
 keymap.set('n', 'l', function()
   require 'hop'.hint_lines_skip_whitespace()
-  vim.cmd("norm zz")
+  -- vim.cmd("norm zz")
 end)
 keymap.set('v', 'h', function()
   require 'hop'.hint_words()
-  vim.cmd("norm zz")
+  -- vim.cmd("norm zz")
 end)
 
 keymap.set('v', 'l', function()
   require 'hop'.hint_lines_skip_whitespace()
-  vim.cmd("norm zz")
+  -- vim.cmd("norm zz")
 end)
 
 -- reimplement f / F
