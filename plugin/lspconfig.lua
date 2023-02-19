@@ -72,7 +72,7 @@ local servers = {
   "html",
   "intelephense",
   "jsonls",
-  "sumneko_lua",
+  "lua_ls",
   "tsserver",
   "emmet_ls",
   "clangd",
