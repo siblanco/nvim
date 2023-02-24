@@ -117,7 +117,7 @@ for _, server in pairs(servers) do
     opts = vim.tbl_deep_extend("force", intelephense_opts, opts)
   end
 
-  if server == "sumneko_lua" then
+  if server == "lua_ls" then
     local lua_opts = {
       on_attach = function(client, bufnr)
         on_attach(client, bufnr)
