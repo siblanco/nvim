@@ -17,7 +17,7 @@ null_ls.setup {
   sources = {
     null_ls.builtins.formatting.prettierd,
     null_ls.builtins.formatting.eslint_d,
-    null_ls.builtins.formatting.phpcsfixer,
+    -- null_ls.builtins.formatting.phpcsfixer,
     null_ls.builtins.diagnostics.eslint_d.with({
       only_local = "node_modules/.bin",
       diagnostics_format = '[eslint] #{m}\n(#{c})'

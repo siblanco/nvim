@@ -42,7 +42,7 @@ packer.startup(function(use)
   use 'norcalli/nvim-colorizer.lua'
 
   use 'lewis6991/gitsigns.nvim'
-  use 'dinhhuy258/git.nvim' -- For git blame & browse
+  use 'tpope/vim-fugitive' -- For git blame & browse
 
   use { "tpope/vim-repeat" }
   use 'nvim-treesitter/nvim-treesitter-context'
@@ -57,5 +57,4 @@ packer.startup(function(use)
   use "phaazon/hop.nvim"
 
   use "mbbill/undotree"
-
 end)
