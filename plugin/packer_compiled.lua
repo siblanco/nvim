@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/sytec/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["gv.vim"] = {
+    loaded = true,
+    path = "/home/sytec/.local/share/nvim/site/pack/packer/start/gv.vim",
+    url = "https://github.com/junegunn/gv.vim"
+  },
   ["hop.nvim"] = {
     loaded = true,
     path = "/home/sytec/.local/share/nvim/site/pack/packer/start/hop.nvim",
