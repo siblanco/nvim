@@ -5,9 +5,9 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 local lsp_formatting = function(bufnr)
   vim.lsp.buf.format({
-    filter = function(client)
-      return client.name == "null-ls"
-    end,
+    -- filter = function(client)
+    --   return client.name == "null-ls"
+    -- end,
     bufnr = bufnr,
   })
 end
@@ -17,7 +17,6 @@ null_ls.setup {
   sources = {
     null_ls.builtins.formatting.prettierd,
     null_ls.builtins.formatting.eslint_d,
-    -- null_ls.builtins.formatting.phpcsfixer,
     null_ls.builtins.diagnostics.eslint_d.with({
       only_local = "node_modules/.bin",
       diagnostics_format = '[eslint] #{m}\n(#{c})'
@@ -37,10 +36,10 @@ null_ls.setup {
   end
 }
 
-vim.api.nvim_create_user_command(
-  'DisableLspFormatting',
-  function()
-    vim.api.nvim_clear_autocmds({ group = augroup, buffer = 0 })
-  end,
-  { nargs = 0 }
-)
+-- vim.api.nvim_create_user_command(
+--   'DisableLspFormatting',
+--   function()
+--     vim.api.nvim_clear_autocmds({ group = augroup, buffer = 0 })
+--   end,
+--   { nargs = 0 }
+-- )

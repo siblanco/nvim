@@ -9,18 +9,18 @@ vim.cmd [[packadd packer.nvim]]
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'folke/tokyonight.nvim'
-  use 'nvim-lualine/lualine.nvim' -- Statusline
-  use 'nvim-lua/plenary.nvim' -- Common utilities
-  use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
-  use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
-  use 'hrsh7th/nvim-cmp' -- Completion
-  use 'neovim/nvim-lspconfig' -- LSP
+  use 'nvim-lualine/lualine.nvim'       -- Statusline
+  use 'nvim-lua/plenary.nvim'           -- Common utilities
+  use 'hrsh7th/cmp-buffer'              -- nvim-cmp source for buffer words
+  use 'hrsh7th/cmp-nvim-lsp'            -- nvim-cmp source for neovim's built-in LSP
+  use 'hrsh7th/nvim-cmp'                -- Completion
+  use 'neovim/nvim-lspconfig'           -- LSP
   use 'jose-elias-alvarez/null-ls.nvim' -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
 
   use 'L3MON4D3/LuaSnip'
-  use { "saadparwaiz1/cmp_luasnip" } -- snippet completions
+  use { "saadparwaiz1/cmp_luasnip" }     -- snippet completions
   use { "rafamadriz/friendly-snippets" } -- a bunch of snippets to use
   use 'siblanco/nvim-snippets'
   use 'tpope/vim-commentary'
@@ -55,7 +55,7 @@ packer.startup(function(use)
   end }
 
   use "RRethy/vim-illuminate"
-  use "phaazon/hop.nvim"
+  -- use "phaazon/hop.nvim"
 
   use "mbbill/undotree"
 end)

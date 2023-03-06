@@ -109,11 +109,6 @@ _G.packer_plugins = {
     path = "/home/sytec/.local/share/nvim/site/pack/packer/start/gv.vim",
     url = "https://github.com/junegunn/gv.vim"
   },
-  ["hop.nvim"] = {
-    loaded = true,
-    path = "/home/sytec/.local/share/nvim/site/pack/packer/start/hop.nvim",
-    url = "https://github.com/phaazon/hop.nvim"
-  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/sytec/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
